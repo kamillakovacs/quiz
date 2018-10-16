@@ -1,0 +1,32 @@
+body {
+  background-color: lightgrey;
+}
+
+#container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+#question {
+  text-align: center;
+}
+button {
+  width: 200px;
+  height: 30px;
+  align-self: center;
+}
+
+#manage {
+  text-align: center;
+  padding: 10px;
+}

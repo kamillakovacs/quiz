@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>myQuiz</title>
+  <script type="text/javascript" src="/assets/questionscript.js"></script>
+  <link rel="stylesheet" href="/assets/questionstyle.css" />
+</head>
+
+<body>
+    <div id="container">
+    <center><h1>Manage questions</h1></center>
+    <div class="manage">
+      
+    </div>
+    <div class="create a new question">
+  <form action="http://localhost:3000/questions" method="post" enctype="application/json">
+      <center><h1>Create a new question</h1></center>
+      <input type="text" name="question" placeholder="Type your question here">
+
+      <div class="answers">
+        <h2>Answers</h2>
+      </div>
+
+      <label for="1"> #1 </label>
+      <input type="text" id="1" name="answer1" placeholder="Type your answer here">
+      <input type="radio" name="is_correct" value="answer_1">
+      <br>
+      
+      <label for="2"> #2 </label><input type="text" id="2" name="answer2" placeholder="Type your answer here">
+      <input type="radio" name="is_correct" value="answer_2">
+      <br>
+      
+      <label for="3"> #3 </label><input type="text" id="3" name="answer3" placeholder="Type your answer here">
+      <input type="radio" name="is_correct" value="answer_3">
+      <br>
+      
+      <label for="4"> #4 </label><input type="text" id="4" name="answer4" placeholder="Type your answer here">
+      <input type="radio" name="is_correct" value="answer_4">
+      <br />
+      <br />
+      <div class="button">
+        <button type="submit" id="submit-button">SUBMIT</button>
+      </div>
+
+      <div class="back">
+        <a href="http://localhost:3000">Go back to the game</a>
+      </div>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

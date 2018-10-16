@@ -1,0 +1,24 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 600px;
+  height: auto;
+  align-content: center;
+}
+
+.manage {
+  background-color: white;
+}
+
+.new-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.new-title {
+  width: 500px;
+  padding-right: 10px;
+}
+
